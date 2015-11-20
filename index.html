@@ -3,120 +3,175 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Let's Pizza MX</title>
-		<meta name="viewport" content="width = device-width, user-scalable=no">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="description" content="Let's Pizza Mexico, la unica maquina que te entrega una pizza caliente en tan solo 3 minutos. Let's Pizza utliliza los ingredientes mas frescos.">
+		<meta name="keywords" content="Let’s Pizza, Let’s Pizza Mexico, Let's Pizza MX, Lets Pizza, Let’s Pizza vending machine, vending, vending machine, pizza vending, pizza, fast-food vending, hot food vending, hot food vending industry, food vending, la primera maquina expendedora de pizza, maquina de pizza, maquina exprendedora de pizzas, comida caliente, maquina de comida caliente">
 		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"/>
 		<link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullPage.css" />
-		<link rel="stylesheet" type="text/css" href="stylesheets/foundation-5.5.2/css/foundation.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<link rel="stylesheet" type='text/css' href="stylesheets/font-awesome-4.3.0/css/font-awesome.css"/>
 		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lobster'>
 		<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
 		
 	</head>
 	<body>
+	<div class="loader"></div>
 	<!-- Navigation -->
-
-    <div class="contain-to-grid">
-      <nav class="top-bar" data-topbar id = "menu">
-        <ul class="title-area" id="menu">
-          <li class="name">
-            <h1><a class="logo show-for-small-only" href="#"><img src="img/logoPizzaJR.png"/></a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-
-          <div class="logo-wrapper hide-for-small-only">
-            <div class="logo">
-              <img src="img/logoPizza.png">
-            </div>
+	<header>
+		<nav class="navbar navbar-default navbar-static-top">
+		  
+	  	 <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+        	
+            <button type="button" class="navbar-toggle" >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
           </div>
-		<!-- Left Nav Section -->
-          <ul class="left" id="menu">
-          	<li data-menuanchor="thirdPage"><a href="#thirdPage">Productos</a></li>
-          	<li data-menuanchor="secondPage"><a href="#secondPage">Nosotros</a></li>
-            <li data-menuanchor="firstPage"><a href="#firstPage">Inicio</a></li>            
-          </ul>
-          <!-- Right Nav Section -->
-          <ul class="right" id="menu">
-            <li data-menuanchor="fourthPage"><a href="#fourthPage">Galeria</a></li>
-            <li data-menuanchor="fifthPage"><a href="#fifthPage">Ubicación</a></li>
-            <li data-menuanchor="sixthPage"><a href="#sixth">Contacto</a></li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </ul>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse">
+       	<ul class="nav navbar-nav">
+		   <li> <a class="navbar-text" data-menuanchor="firstPage" href="#firstPage">Inicio</a></li>
+		   </li>
+		    <li><a class="navbar-text"data-menuanchor="secondPage" href="#secondPage">Nosotros</a></li>
+		    <li><a class="navbar-text"data-menuanchor="thirdPage" href="#thirdPage">Productos</a></li>
+		    <li><a class="navbar-brand"> <img src="img/LogoLetsPizzaVector.svg"></a></li>
+		    <li><a class="navbar-text"data-menuanchor="fourthPage" href="#fourthPage">Galeria</a></li>
+		    <li><a class="navbar-text"data-menuanchor="fifthPage" href="#fifthPage">Ubicaciones</a></li>
+		    <li><a class="navbar-text"data-menuanchor="sixthPage"href="#sixthPage">Contacto</a></li>
+		    <li><a href="https://letspizzamx.typeform.com/to/l3HoSw" class="navbar-text">Problemas</a></li>
 
-        </section>
-      </nav>
-	
-    </div><!-- /navigation -->
+		  </div>
+		</nav>
+	</header>
+    <!-- /navigation -->
   
 	<div id="fullpage">
-
-		<div class="section" id="s1"> 	
-	  
-	     <div class="large-12 columns">
-	     	<h1>Let's Pizza MX</h1>
-		 </div>
-		 <div class="large-8 columns">
-		 	<img src="img/prueba.jpg" alt="">
-		 </div>
-		 <div class="large-4 columns">
-		 <ul>
-		  <li><a href="#" class="round one">1<span class="round">That is, if you already have an account.</span></a></li>
-		  <li><a href="#" class="round two">2<span class="round">But only if you really, really want to. </span></a></li>
-			<li><a href="#" class="round three">3<span class="round">Take a look. This product is totally rad!</span></a></li>
-		</ul> 
-		 </div>
-		 
-	  
+		<div class="section" id="s"> 	
+		<div class="container">
+			 <div class="col-md-12">
+		 		<img class="maquinaF1" src="img/maquinaF1.png">
+			 </div> 
+			<div class="col-md-12">
+				<a href="#"><i class="navbar-text fa fa-facebook fa-2x"></i></a>
+			 	<a href="#"><i class="navbar-text fa fa-twitter fa-2x"></i></a>
+			</div>
+		</div>
 	  	</div>
-	    <div class="section" id ="s2">
-	    	
-				<div class="large-6 columns"> 
-					<h2>Let's Pizza</h2>
-					<p>Let’s Pizza es la única máquina capaz de crear una pizza fresca, comenzando con el amasado al momento de su preparación utilizando ingredientes frescos y de la mas alta calidad en el mercado como agua, harina , tomate, queso mozzarella y otras coberturas. El aroma y el sabor de una pizza napolitana hecha con los mejores productos mexicanos en cualquier momento del día o de la noche, entregada con caja y cubiertos lista para comer o bien de forma mas practica para llevar. <br>
-					Desde un refrigerio o un almuerzo, solo o en compañía, aseguramos la calidad y comodidad a cualquier persona en cualquier momento.</p>    	
+	    <div class="section 2" id ="s">
+	    	<br>
+	    		<div class="container">
+				<div class="col-md-6"> 
+					<h2>¿Que es Let's Pizza?</h2>
+						<p>Let's Pizza es la unica maquina que, en un tiempo record de sólo 3 minutos, amasa, forma,  prepara, hornea y sirve en su caja y con sus cubiertos una deliciosa pizza. Todo esto dentro de un espacio de tan sólo 2 metros cuadrados. Let’s Pizza es una pizzería abierta las 24 horas del día. <br>
+						Desde un refrigerio o un almuerzo, solo o en compañía, Let's Pizza es una solución facil y deliciosa.</p>    	
 				</div>
-				<div class="large-6 columns">
-					<iframe width="420" height="315" src="https://www.youtube.com/embed/UGUp7n96GQI" frameborder="0" allowfullscreen></iframe>
+				<div class="col-md-6">
+					<iframe class="video"src="https://www.youtube.com/embed/meJDSxG-AT4" frameborder="0" allowfullscreen></iframe>
 				</div>
-	    	
+	    		</div>
 	    </div>
-	    f
-	    <div class="section" id ="s3">
-	    	 <div class="slide">
-	    		<div class="large-12 columns">
-			    <h2>Materias primas; frescura y autenticidad. </h2>
-			    <p>En un tiempo record de sólo 3 minutos después del pago, la pizza es amasada, formada,  preparada y servida en su caja  con sus cubiertos. Todo esto dentro de un espacio de sólo 2 metros cuadrado. Let’s Pizza ofrece servicio innovador y destacado: una pizzería abierta las 24 horas del día.</p>
-	    		</div> 
+	    
+	    <div class="section 3" id ="s">
+	    	 <div class="container">
+    	 	<div class="slide">
+    	 		<div class="col-md-12">
+				    <h2>Materias primas, frescura y autenticidad.</h2>
+				    <span>Let’s Pizza es la única máquina capaz de crear una pizza fresca, comenzando con el amasado al momento de su preparación utilizando ingredientes frescos y de la mas alta calidad desde el agua, la harina, el tomate y el queso mozzarella, ademas de las coberturas.</span>
+	    		</div>
+	    	 	<div class="col-md-12">
+	    	 		<img id="ingredients" src="img/ingr1.png">
+	    	 	</div>
+	    	 </div> 
 	    	</div>
 	    	<div class="slide">
-	    		<p>Margarita – harina, agua, salsa de tomate y queso mozzarella</p>
+	    		<img id ="sabores"src="img/pizzassabores/margaritaCaja.png" />
 	    	</div>
 	    	<div class="slide">
-	    		<p>Pepperoni - harina, agua, salsa de tomate, queso mozzarella y pepperoni</p>
+	    		<img id ="sabores"src="img/pizzassabores/peperoniCaja.png" />
 	    	</div>
 	    	<div class="slide">
-	    		<p>Jamón (próximamente) - harina, agua, salsa de tomate, queso mozzarella y jamón</p>
+	    		<img id ="sabores"src="img/pizzassabores/jamonCajaProx.png" />
 	    	</div>
 	    	<div class="slide">
-	    		<p>Vegetariana (próximamente) - harina, agua, salsa de tomate, queso mozzarella y vegetales</p>
+	    		<img id ="sabores"src="img/pizzassabores/vegetarianaCajaProx.png" />
 	    	</div>
 	  
 	    </div>
-	    <div class="section" id ="s4">
-	    
+	    <div class="section 4" id ="s">
+	    	<div class="container">
+		    	<h1>Galeria de imagenes</h1>
+		    	<div class="slide">
+		    		<img class="imgGal" src="img/fotosGaleria/boton1.jpeg">
+		    	</div>
+		    	<div class="slide">
+		    		<img class="imgGal" src="img/fotosGaleria/pizzaMaking.jpeg">
+		    	</div>
+		    	<div class="slide">
+		    		<img class="imgGal" src="img/fotosGaleria/pizzaMaking2.jpeg">
+		    	</div>
+		    	<div class="slide">
+		    		<img class="imgGal" src="img/fotosGaleria/getPizza.jpeg">
+		    	</div>
+		    	<div class="slide">
+		    		<img class="imgGal" src="img/fotosGaleria/pizzaDone2.jpeg">
+		    	</div>
+		    	<div class="slide">
+		    		<img class="imgGal" src="img/fotosGaleria/pizzaDone.jpeg">
+		    	</div>
+			</div>
 	    </div>
-	    <div class="section" id ="s5">
-	    	 <div class="large-12 columns" id="map"></div>
+	   <div class="section 5" id ="s">
+	   	<div class="col-md-12">
+	   		<h1>Ubicaciones</h1>
+	   	</div>
+	    	<div class="container"> 
+	    		<div id="map"></div>
+	    	</div>
+	    </div>
+	    <div class="section 6" id="s">
+			<h1>Contacto</h1>
+			<br>
+	    	<div class="col-md-12" id="cajaContacto">
+	    		<img src="img/caja1.png">
+	    	</div>
+    	<div class="container">
+
+	    	<form action="//formspree.io/davidzn2@gmail.com" method="POST" class="form-inline">
+			    <input type="text" class="form-control" id="InputName2" placeholder="Nombre">
+			    <input type="email" class="form-control" id="InputEmail2" placeholder="Correo Electronico">
+			    <input type="textarea" class="form-control" id="Inputmessagel2" placeholder="Mensaje">
+			  <button type="submit" class="btn btn-default">Enviar</button>
+			</form>
+			<br>
+			<span>¿Problemas con la maquina?</span>
+    		<button onclick="window.location.href='https://letspizzamx.typeform.com/to/l3HoSw'">Da click aqui</button>
+			<a href="#"><i class="navbar-text fa fa-facebook fa-2x"></i></a>
+		 	<a href="#"><i class="navbar-text fa fa-twitter fa-2x"></i></a>
+		</div>
 	    </div>
 	</div>
 	</body>
 	<!--Scrpits-->
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="javascripts/jquery.fullPage.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+
 	<script src="javascripts/index.js"></script>
+	<!--Google Analytics-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-69784042-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
 	<!--Scripts-->
 </html>

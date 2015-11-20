@@ -171,6 +171,7 @@
         * It changes the scroll bar visibility and the history of the site as a result.
         */
         FP.setAutoScrolling = function(value, type){
+
             setVariableState('autoScrolling', value, type);
 
             var element = $(SECTION_ACTIVE_SEL);
@@ -314,6 +315,7 @@
         * Moves the page down one section.
         */
         FP.moveSectionDown = function (){
+
             var next = $(SECTION_ACTIVE_SEL).next(SECTION_SEL);
 
             //looping to the top if there's no more sections below
@@ -349,6 +351,7 @@
         * Anchors or index positions can be used as params.
         */
         FP.moveTo = function (sectionAnchor, slideAnchor){
+
             var destiny = getSectionByAnchor(sectionAnchor);
 
             if (typeof slideAnchor !== 'undefined'){
