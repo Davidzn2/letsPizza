@@ -21,6 +21,7 @@
   .imgGal{
     height:200px;
   }
+
 }
 .foto1{
   width: 400px;
@@ -84,14 +85,19 @@ header img{
 *{
   font-size: 19px;
 }
+@media(max-width:600px){
+  *{
+    font-size: 15px;
+  }
+}
+
 .section{
 	font-size: 6em;
 	text-align: center;
 	font-family: 'Montserrat';
 }
-.5{
-  border-top: px;
-}
+
+
 * h1, h2{
   font-family: 'Lobster';
   color:#FFFFFF;
@@ -100,19 +106,22 @@ span{
 	color:#FFFFFF;
   font-size:16px;
 }
+@media(max-width:600px){
+  span{
+    font-size:13px;
+    }
+  }
+
+
 * p{
   color:#FFFFFF;
   text-align: justify;
   font-size: 1em;
 }
 
-
-
 .container{
   display:block;
-  width: 80%;
-
- 
+  width: 80%; 
 }
 
 .loader {
