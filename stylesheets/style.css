@@ -87,7 +87,10 @@ header img{
 }
 @media(max-width:600px){
   *{
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .video{
+  	height:100%;
   }
 }
 
@@ -108,7 +111,7 @@ span{
 }
 @media(max-width:600px){
   span{
-    font-size:13px;
+    font-size:12px;
     }
   }
 
