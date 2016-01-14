@@ -4,14 +4,14 @@
   background-size: cover;
 }
 #cajaContacto img{
-  width:60%;
+  width:50%;
   
 }
 #ingredients{
   width: 60%;
 }
 .maquinaF1{
-  max-width: 375px;
+  max-width: 370px;
   width:100%;
 }
 .imgGal{
@@ -21,8 +21,8 @@
   .imgGal{
     height:200px;
   }
-
 }
+
 .foto1{
   width: 400px;
 }
@@ -45,6 +45,9 @@
   padding-left: 100px;
 }
 @media(min-width: 1500px) {
+  .maquinaF1{
+    max-width: 600px;
+  }
   .nav{
     padding-left: 350px;
   }
