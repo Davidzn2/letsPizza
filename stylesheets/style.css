@@ -44,12 +44,12 @@
 .nav{
   padding-left: 100px;
 }
-@media(min-width: 1500px) {
+@media(min-width: 1300px) {
   .maquinaF1{
-    max-width: 600px;
+    max-width: 560px;
   }
   .nav{
-    padding-left: 350px;
+    padding-left: 200px;
   }
 }
 header img{
@@ -61,7 +61,7 @@ header img{
   padding-top: 1px; 
 }
 
- .fa{
+.fa{
   padding-top:20px;
   padding-left: 20px
 }  
@@ -72,15 +72,7 @@ header img{
 .navbar-texttweet{
   color:#5ea9dd;
 }
-@media(min-width:1px) {
-    body {
-        padding-top: 100px;
 
-    }
-.navbar-fixied-top .navbar-logo{
-  padding: 10px 0;
-}
-}
 *{
   font-size: 19px;
 }
@@ -106,8 +98,9 @@ header img{
 }
 span{
 	color:#FFFFFF;
-  font-size:16px;
+  	font-size:16px;
 }
+
 @media(max-width:600px){
   span{
     font-size:12px;
