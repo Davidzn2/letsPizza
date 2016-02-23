@@ -8,7 +8,7 @@ $(document).ready(function() {
 		anchors: ['Inicio', 'Nosotros', 'Productos','Galeria','Ubicaciones','Contacto'],
 		menu: '#Menu',
 		navigation: true,
-		scrollingSpeed: 2000,
+		scrollingSpeed: 500,
 		verticalCentered: true,
 		paddingBottom: '70px',
 		css3: true
