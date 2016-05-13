@@ -35,14 +35,7 @@ h1, h2{
 *{
   font-size: 19px;
 }
-@media(max-width:600px){
-  *{
-    font-size: 12px;
-  }
-  .video{
-  	height:100%;
-  }
-}
+
 
 
 span{
@@ -100,6 +93,14 @@ p{
 .video{
   width: 100%;
   height:400px;
+}
+@media(max-width:600px){
+  *{
+    font-size: 12px;
+  }
+  .video{
+    height:80%;
+  }
 }
 .pin{
   height:65px;
