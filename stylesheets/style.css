@@ -1,7 +1,70 @@
-#s{
+.section{
   background-image:url("../img/FondoMuyLargoNuevo.png");
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 6em;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+header img{
+  width: 130px;
+  display:inline-block;
+}
+
+.navbar { 
+  padding-top: 1px; 
+}
+
+.fa{
+  padding-top:20px;
+  padding-left: 20px
+}  
+.navbar-textface{
+  color:#FFFFFF;
+  
+}
+.navbar-texttweet{
+  color:#5ea9dd;
+}
+h1, h2{
+  font-family: 'Lobster';
+  color:#FFFFFF;
+}
+
+*{
+  font-size: 19px;
+}
+@media(max-width:600px){
+  *{
+    font-size: 12px;
+  }
+  .video{
+  	height:100%;
+  }
+}
+
+
+span{
+	color:#FFFFFF;
+  font-size:16px;
+}
+
+@media(max-width:600px){
+  span{
+    font-size:12px;
+    }
+  }
+
+p{
+  color:#FFFFFF;
+  text-align: justify;
+  font-size: 1em;
+}
+
+.container{
+  display:block;
+  width: 80%; 
 }
 #cajaContacto img{
   width:50%;
@@ -52,73 +115,6 @@
     padding-left: 200px;
   }
 }
-header img{
-  width: 130px;
-  display:inline-block;
-}
-
-.navbar { 
-  padding-top: 1px; 
-}
-
-.fa{
-  padding-top:20px;
-  padding-left: 20px
-}  
-.navbar-textface{
-  color:#FFFFFF;
-  
-}
-.navbar-texttweet{
-  color:#5ea9dd;
-}
-
-*{
-  font-size: 19px;
-}
-@media(max-width:600px){
-  *{
-    font-size: 12px;
-  }
-  .video{
-  	height:100%;
-  }
-}
-
-.section{
-	font-size: 6em;
-	text-align: center;
-	font-family: 'Montserrat';
-}
-
-
-* h1, h2{
-  font-family: 'Lobster';
-  color:#FFFFFF;
-}
-span{
-	color:#FFFFFF;
-  	font-size:16px;
-}
-
-@media(max-width:600px){
-  span{
-    font-size:12px;
-    }
-  }
-
-
-* p{
-  color:#FFFFFF;
-  text-align: justify;
-  font-size: 1em;
-}
-
-.container{
-  display:block;
-  width: 80%; 
-}
-
 .loader {
   position: fixed;
   left: 0px;
